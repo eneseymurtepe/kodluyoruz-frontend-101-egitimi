@@ -1,7 +1,7 @@
 /**************** Layout ************/
 
 /* class -> .text-red {} */
-/* #id-bilgisi -> .text-red {}  */
+/* #id-bilgisi -> #text-red {}  */
 
 h1,
 h2,
@@ -11,6 +11,7 @@ h5,
 h6 {
   color: #2c2c2c;
 }
+
 h1 {
   font-size: 30px;
   color: #202020;
