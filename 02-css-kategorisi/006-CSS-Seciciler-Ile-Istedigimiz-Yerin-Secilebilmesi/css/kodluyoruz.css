@@ -3,7 +3,7 @@
 /* class -> .text-red {} */
 /* #id-bilgisi -> .text-red {}  */
 
-/* Css Selektors */
+/* CSS Selektors */
 
 /*
  li:first-child {
@@ -40,6 +40,7 @@ h5,
 h6 {
   color: #2c2c2c;
 }
+
 h1 {
   font-size: 30px;
   color: #202020;
