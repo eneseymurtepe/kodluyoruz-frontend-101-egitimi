@@ -11,7 +11,7 @@ let userFormDOM = document.querySelector('#userForm')
 userFormDOM.addEventListener('submit', formHandler)
 const alertDOM = document.querySelector('#alert')
 
-const alertFunction = (title, message, className="warning") => `
+const alertFunction = (title, message, className = "warning") => `
 <div class="alert alert-${className} alert-dismissible fade show" role="alert">
   <strong>${title}</strong> ${message}
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -22,10 +22,10 @@ function formHandler(event) {
     event.preventDefault()
     const USER_NAME = document.querySelector("#username")
     const SCORE = document.querySelector("#score")
-    
+
     if (USER_NAME.value && SCORE.value) {
-        addItem(USER_NAME.value, SCORE.value)  // gonderdikten sonra sifirladik
-        USER_NAME.value = "" 
+        addItem(USER_NAME.value, SCORE.value) // gonderdikten sonra sifirladik
+        USER_NAME.value = ""
         SCORE.value = ""
     } else {
         alertDOM.innerHTML = alertFunction(
@@ -34,7 +34,7 @@ function formHandler(event) {
             "success"
         )
     }
-    
+
 }
 
 

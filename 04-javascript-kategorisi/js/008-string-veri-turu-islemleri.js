@@ -6,7 +6,7 @@ let firstName = "hakan"
 let lastName = "YALCINKAYA"
 
 // string karakter sayisi -> length
-console.log( email.length )
+console.log(email.length)
 
 // Ilk Karakteri Bulmak -> [0]:
 console.log(firstName[0])
@@ -20,16 +20,16 @@ firstName = firstName.toLowerCase()
 console.log(firstName)
 // String Icinde Istedigimiz Bilgiyi Aramak ve Yerini Bulmak -> search:
 console.log(email.search("@"))
-console.log( email[15] )
+console.log(email[15])
 
 email.search('olmayan') // -1
 
 // belli bir yere kadar al -> slice :  (domain bilgisi)
-let DOMAIN = email.slice( email.search("@") + 1)
+let DOMAIN = email.slice(email.search("@") + 1)
 console.log(DOMAIN)
 
 console.log(
-    DOMAIN.slice(0, DOMAIN.indexOf('.') )  // sadece gmail kismini aldik
+    DOMAIN.slice(0, DOMAIN.indexOf('.')) // sadece gmail kismini aldik
 )
 
 // bilgiyi degistir -> replace :
