@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: brown;
+      border-radius: 50%;
+    }
+
+    .text-success {
+      color: green;
+    }
+
+    .font-size-24 {
+      font-size: 24px;
+    }
+
+    .font-italic {
+      font-style: italic;
+    }
+    .changeP {
+      background: aquamarine;
+    }
+    #myBTN {
+      background: crimson;
+      padding: 10px 10px;
+      border-radius: 20px;
+    }
+    #myBTN:hover{
+        box-shadow: 3px 3px 20px aqua;
+        transition: 0.5s all;
+    }
+  </style>
+
+  <body>
+    <div id="demo" onclick="changeColor()"></div>
+
+    <p id="change">devJSx</p>
+
+    <span class="yesOrNot">Buraya Tıkla JQuery Adamdır</span>
+
+    <p id="chng">
+      Butona tıklandığında bu kısmın arka planı değişecek.
+    </p>
+
+    <button id="myBTN">Tıkla ve paragrafın rengini değiştir.</button>
+
+    <script src="demo.js"></script>
+  </body>
+</html>
