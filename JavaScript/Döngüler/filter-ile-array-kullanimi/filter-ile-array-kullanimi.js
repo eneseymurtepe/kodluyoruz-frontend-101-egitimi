@@ -3,7 +3,8 @@
 
 // Filter Metodu
 
-/* Bir Array metodu olan filter(), dizi elemanlarını döngüye alıp, istediğimiz koşula sahip 
+/* 
+Bir Array metodu olan filter(), dizi elemanlarını döngüye alıp, istediğimiz koşula sahip 
 olanlarla yeni bir dizi oluşturmak için kullanılır. 
 */
 
@@ -34,5 +35,5 @@ const USERS = [{
     },
 ]
 
-const ACTIVE_USERS = USERS.filter(user => user.isActive === true)
+const ACTIVE_USERS = USERS.filter(user => user.isActive === true) // = user.isActive
 console.log(ACTIVE_USERS)
